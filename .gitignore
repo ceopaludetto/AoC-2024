@@ -1,0 +1,11 @@
+# macOS
+.DS_Store
+
+# Build artifacts
+/.build
+/Packages
+xcuserdata/
+DerivedData/
+.swiftpm/configuration/registries.json
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+.netrc
