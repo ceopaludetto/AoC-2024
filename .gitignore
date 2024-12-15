@@ -11,4 +11,4 @@ DerivedData/
 .netrc
 
 # Launch tasks
-.vscode/lunch.json
+.vscode/launch.json

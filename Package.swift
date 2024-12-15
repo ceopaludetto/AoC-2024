@@ -13,6 +13,7 @@ let package = Package(
 		// Targets can depend on other targets in this package and products from dependencies.
 		.executableTarget(name: "AoC-2024-1", path: "Sources/1"),
 		.executableTarget(name: "AoC-2024-2", path: "Sources/2"),
+		.executableTarget(name: "AoC-2024-3", path: "Sources/3"),
 
 		.testTarget(name: "AoC-2024-2-Tests", dependencies: ["AoC-2024-2"], path: "Tests/2"),
 	]
