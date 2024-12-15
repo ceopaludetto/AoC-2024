@@ -11,6 +11,9 @@ let package = Package(
 	targets: [
 		// Targets are the basic building blocks of a package, defining a module or a test suite.
 		// Targets can depend on other targets in this package and products from dependencies.
-		.executableTarget(name: "AoC-2024", path: "Sources/1")
+		.executableTarget(name: "AoC-2024-1", path: "Sources/1"),
+		.executableTarget(name: "AoC-2024-2", path: "Sources/2"),
+
+		.testTarget(name: "AoC-2024-2-Tests", dependencies: ["AoC-2024-2"], path: "Tests/2"),
 	]
 )

@@ -1,0 +1,40 @@
+{
+	"configurations": [
+		{
+			"type": "lldb",
+			"request": "launch",
+			"args": [],
+			"cwd": "${workspaceFolder:AoC-2024}",
+			"name": "Debug AoC-2024-2",
+			"program": "${workspaceFolder:AoC-2024}/.build/debug/AoC-2024-2",
+			"preLaunchTask": "swift: Build Debug AoC-2024-2"
+		},
+		{
+			"type": "lldb",
+			"request": "launch",
+			"args": [],
+			"cwd": "${workspaceFolder:AoC-2024}",
+			"name": "Release AoC-2024-2",
+			"program": "${workspaceFolder:AoC-2024}/.build/release/AoC-2024-2",
+			"preLaunchTask": "swift: Build Release AoC-2024-2"
+		},
+		{
+			"type": "lldb",
+			"request": "launch",
+			"args": [],
+			"cwd": "${workspaceFolder:AoC-2024}",
+			"name": "Debug AoC-2024-1",
+			"program": "${workspaceFolder:AoC-2024}/.build/debug/AoC-2024-1",
+			"preLaunchTask": "swift: Build Debug AoC-2024-1"
+		},
+		{
+			"type": "lldb",
+			"request": "launch",
+			"args": [],
+			"cwd": "${workspaceFolder:AoC-2024}",
+			"name": "Release AoC-2024-1",
+			"program": "${workspaceFolder:AoC-2024}/.build/release/AoC-2024-1",
+			"preLaunchTask": "swift: Build Release AoC-2024-1"
+		}
+	]
+}
