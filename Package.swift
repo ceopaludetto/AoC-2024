@@ -14,7 +14,9 @@ let package = Package(
 		.executableTarget(name: "AoC-2024-1", path: "Sources/1"),
 		.executableTarget(name: "AoC-2024-2", path: "Sources/2"),
 		.executableTarget(name: "AoC-2024-3", path: "Sources/3"),
+		.executableTarget(name: "AoC-2024-4", path: "Sources/4"),
 
 		.testTarget(name: "AoC-2024-2-Tests", dependencies: ["AoC-2024-2"], path: "Tests/2"),
+		.testTarget(name: "AoC-2024-4-Tests", dependencies: ["AoC-2024-4"], path: "Tests/4"),
 	]
 )
